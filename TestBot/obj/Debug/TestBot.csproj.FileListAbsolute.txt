@@ -37,3 +37,42 @@ C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\zh-hans\Microsoft.Bot.Builder.resou
 C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\TestBot.csprojResolveAssemblyReference.cache
 C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\Bot Application1.dll
 C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\Bot Application1.pdb
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Bot Application1.dll.config
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Bot Application1.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Bot Application1.pdb
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Autofac.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Chronic.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Newtonsoft.Json.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Net.Http.Formatting.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Web.Http.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Web.Http.WebHost.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Autofac.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\Newtonsoft.Json.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Net.Http.Formatting.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Web.Http.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\System.Web.Http.WebHost.xml
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\TestBot.csprojResolveAssemblyReference.cache
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\Bot Application1.dll
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\Bot Application1.pdb
