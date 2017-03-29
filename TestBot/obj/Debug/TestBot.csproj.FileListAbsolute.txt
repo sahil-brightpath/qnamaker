@@ -1,0 +1,39 @@
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Bot Application1.dll.config
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Bot Application1.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Bot Application1.pdb
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Autofac.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Chronic.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Bot.Builder.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Bot.Connector.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Newtonsoft.Json.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Net.Http.Formatting.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Web.Http.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Web.Http.WebHost.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Autofac.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Bot.Builder.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Bot.Connector.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\Newtonsoft.Json.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Net.Http.Formatting.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Web.Http.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\System.Web.Http.WebHost.xml
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\TestBot.csprojResolveAssemblyReference.cache
+C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\Bot Application1.dll
+C:\OnTimeProjects\OnTime\TestBot\TestBot\obj\Debug\Bot Application1.pdb
