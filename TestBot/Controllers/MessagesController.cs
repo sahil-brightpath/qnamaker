@@ -43,6 +43,7 @@ namespace TestBot
             }
 
         }
+      
         //public static async Task<string> MakePublishRequest()
         //{
         //    string ret = string.Empty;
@@ -64,13 +65,13 @@ namespace TestBot
         //    }
 
         //    HttpWebResponse resp = (HttpWebResponse) await webRequest.GetResponseAsync();
-          
+
         //    Stream resStream = resp.GetResponseStream();
         //    StreamReader reader = new StreamReader(resStream);
         //    ret = reader.ReadToEnd();
         //    return ret;
         //}
-       
+
 
         public static async Task<string> RequestAsync<T>(string input)
         {
@@ -110,6 +111,7 @@ namespace TestBot
         /// Receive a message from a user and reply to it
         /// </summary>
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
+
         {
           
           //  String result = await MakePublishRequest();
@@ -153,51 +155,31 @@ namespace TestBot
                 // Activity.From + Activity.Action represent what happened
             }
             else if (message.Type == ActivityTypes.Typing)
-            {
-                // Handle knowing tha the user is typing
+            {                // Handle knowing tha the user is typing
             }
             else if (message.Type == ActivityTypes.Ping)
             {
             }
-
             return null;
         }
+      
 
         public static string MakeQuestionBank()
         {
-            QnaPair qna = new QnaPair() { question = "What is your name ?", answer = "My name is Raj" };
+            var dict = new Dictionary<string, string>();
 
-            AddToKB questionbank = new AddToKB() { name = "KbtestRajwinder",qnaPairs=new List<QnaPair>(),urls=new List<string>() };
-            questionbank.qnaPairs.Add(qna);
-            questionbank.urls.Add("http://www.seattle.gov/hala/faq");
-
-
+            string[] lines = File.ReadAllLines("C:/Users/Desktop/Downloads/ExampleFile.tsv");
+             dict = lines.Select(l => l.Split('?')).ToDictionary(a => a[0], a => a[1]);
+            AddToKB questionbank = new AddToKB() { name = "ghagsh", qnaPairs = new List<QnaPair>(), urls = new List<string>() };
+            foreach (var entry in dict)
+            {
+                QnaPair qna = new QnaPair() { question = entry.Key, answer = entry.Value };
+                questionbank.qnaPairs.Add(qna);
+            }
+            questionbank.urls.Add("");
             var serializer = new JavaScriptSerializer();
             return serializer.Serialize(questionbank);
 
-
         }
-
-
     }
-    //public class QnaPair
-    //{
-
-    //    [JsonProperty("answer")]
-    //    public string answer { get; set; }
-
-    //    [JsonProperty("question")]
-    //    public string question { get; set; }
-    //}
-
-    //public class AddToKB
-    //{
-    //    [JsonProperty("name")]
-    //    public string name { get; set; }
-    //    [JsonProperty("qnaPairs")]
-    //    public IList<QnaPair> qnaPairs { get; set; }
-
-    //    [JsonProperty("urls")]
-    //    public IList<string> urls { get; set; }
-    //}
 }

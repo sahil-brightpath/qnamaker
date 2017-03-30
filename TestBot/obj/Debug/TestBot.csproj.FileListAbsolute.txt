@@ -73,6 +73,6 @@ C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\fr\Microsoft.Bot.Builder.reso
 C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\ja\Microsoft.Bot.Builder.resources.dll
 C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\ru\Microsoft.Bot.Builder.resources.dll
 C:\Users\Desktop\Source\Repos\qnamaker\TestBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
-C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\TestBot.csprojResolveAssemblyReference.cache
 C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\Bot Application1.dll
 C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\Bot Application1.pdb
+C:\Users\Desktop\Source\Repos\qnamaker\TestBot\obj\Debug\TestBot.csprojResolveAssemblyReference.cache

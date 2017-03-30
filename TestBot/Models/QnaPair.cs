@@ -14,4 +14,5 @@ namespace TestBot.Models
         [JsonProperty("question")]
         public string question { get; set; }
     }
+   
 }
