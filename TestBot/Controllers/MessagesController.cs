@@ -13,19 +13,13 @@ using System.Net.Http.Headers;
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using System.IO;
+using TestBot.Models;
 
 namespace TestBot
 {
     [BotAuthentication]
     public class MessagesController : ApiController
     {
-        //static void Main()
-        //{
-        //    MakeRequest();
-        //    Console.WriteLine("Hit ENTER to exit...");
-        //    Console.ReadLine();
-        //}
-
         static async void MakeRequest()
         {
          //   String result = MakePublishRequest();
@@ -39,27 +33,7 @@ namespace TestBot
             var uri = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/create";// + queryString;
 
             HttpResponseMessage response;
-            //string Body = @'"{"name" : "My Knowledgebase", "urls": [ "http://www.seattle.gov/hala/faq" ]}"';
-            //var serialized = JsonConvert.SerializeObject(Body);
-            // Request body
-            //string json = "{ \"name\": \"sendKnowledgebase\", " +
-            //    " \"qnaPairs\": [" +
-            //   "  \"answer\": \"ticket online, via your mobile device\"," +
-            //" \"question\": \"How do I buy a timed  \" " +
-            //   "]" +
-            //        ",  \"urls\":  \"http://www.seattle.gov/hala/faq\"}";
-
-
-           // string testjson = "{\"name\": \"sendKnowledgebase\"}";
-            //var dict = new Dictionary<string, string>
-            //{
-            //     {"name", "Knowledgebase"},
-            //    {"urls","http://www.seattle.gov/hala/faq"}
-
-            //};
-
-            //var serializer = new JavaScriptSerializer();
-            //serializer.Serialize(dict);
+          
             byte[] byteData = Encoding.UTF8.GetBytes(MakeQuestionBank());
 
             using (var content = new ByteArrayContent(byteData))
@@ -96,23 +70,7 @@ namespace TestBot
         //    ret = reader.ReadToEnd();
         //    return ret;
         //}
-        //public static async Task<string> MakePublishRequest()
-        //{
-        //    string url = "http://www.seattle.gov/hala/faq";
-        //    var client = new HttpClient();
-
-        //    HttpResponseMessage response;
-
-        //    HttpContent httpContent = new StringContent("hi", Encoding.UTF8, "application/json");
-        //    httpContent.Headers.Add("Ocp-Apim-Subscription-Key", "16c5a1e70abf426aa3b3f97604b292da");
-        //    Console.WriteLine("Going to call: " + url);
-        //    response = await client.PutAsync(new Uri(url), httpContent);
-        //    response.StatusCode.ToString();
-        //    Console.WriteLine("QNAMaker MakePublishRequest statuscode: " + response.StatusCode.ToString());
-        //    Console.WriteLine("QNAMaker MakePublishRequest response: " + response.ToString());
-        //    return response.StatusCode.ToString();
-
-        //}
+       
 
         public static async Task<string> RequestAsync<T>(string input)
         {
@@ -209,7 +167,7 @@ namespace TestBot
         {
             QnaPair qna = new QnaPair() { question = "What is your name ?", answer = "My name is Raj" };
 
-            AddToKB questionbank = new AddToKB() { name = "Kbtest8883",qnaPairs=new List<QnaPair>(),urls=new List<string>() };
+            AddToKB questionbank = new AddToKB() { name = "KbtestRajwinder",qnaPairs=new List<QnaPair>(),urls=new List<string>() };
             questionbank.qnaPairs.Add(qna);
             questionbank.urls.Add("http://www.seattle.gov/hala/faq");
 
@@ -222,24 +180,24 @@ namespace TestBot
 
 
     }
-    public class QnaPair
-    {
+    //public class QnaPair
+    //{
 
-        [JsonProperty("answer")]
-        public string answer { get; set; }
+    //    [JsonProperty("answer")]
+    //    public string answer { get; set; }
 
-        [JsonProperty("question")]
-        public string question { get; set; }
-    }
+    //    [JsonProperty("question")]
+    //    public string question { get; set; }
+    //}
 
-    public class AddToKB
-    {
-        [JsonProperty("name")]
-        public string name { get; set; }
-        [JsonProperty("qnaPairs")]
-        public IList<QnaPair> qnaPairs { get; set; }
+    //public class AddToKB
+    //{
+    //    [JsonProperty("name")]
+    //    public string name { get; set; }
+    //    [JsonProperty("qnaPairs")]
+    //    public IList<QnaPair> qnaPairs { get; set; }
 
-        [JsonProperty("urls")]
-        public IList<string> urls { get; set; }
-    }
+    //    [JsonProperty("urls")]
+    //    public IList<string> urls { get; set; }
+    //}
 }
